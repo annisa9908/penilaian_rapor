@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe6;
+    text-align: center;
+    margin: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f7b3b3;
+    color: white;
+}
+.back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #f7b3b3;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+}
+
+.back a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.back:hover {
+    background-color: #f59090;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.btn-edit, .btn-hapus, .btn-detail, .btn-back {
+    padding: 6px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 2px;
+    display: inline-block;
+}
+.btn-edit {
+    background-color: #de7c7c;
+    color: white;
+}
+.btn-hapus {
+    background-color: #f44336;
+    color: white;
+}
+.btn-hapus:hover {
+    background-color: #da190b;
+}
+.btn-detail {
+    background-color: #f7b3b3;
+    color: white;
+}
+.btn-detail:hover {
+    background-color: #de7c7c;
+}
+.btn-back {
+    color: #de7c7c;
+}
+.btn-back:hover {
+    text-decoration: underline;
+}
