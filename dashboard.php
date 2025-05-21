@@ -17,6 +17,7 @@
             </div>
             <div class="button-row">
                 <a href="penilaian_non_akademik.php" class="button square">Penilaian Non-Akademik</a>
+                <a href="log_nilai.php" class="button square">Log Perubahan Nilai</a>
             </div>
         </div>
     </div>
